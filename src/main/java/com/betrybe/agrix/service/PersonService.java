@@ -55,9 +55,9 @@ public class PersonService implements UserDetailsService {
    * Creates a new person.
    */
   public Person create(Person person) {
-    String hasedPassword = new BCryptPasswordEncoder()
+    String hashedPassword = new BCryptPasswordEncoder()
         .encode(person.getPassword());
-    person.setPassword(hasedPassword);
+    person.setPassword(hashedPassword);
     return personRepository.save(person);
   }
 
