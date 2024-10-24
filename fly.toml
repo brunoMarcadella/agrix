@@ -1,10 +1,12 @@
-# fly.toml app configuration file generated for agrix-frosty-forest-280 on 2024-10-24T14:31:10-03:00
+# fly.toml app configuration file generated for agrix-farms on 2024-10-24T15:54:42-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'agrix-frosty-forest-280'
+app = 'agrix-farms'
 primary_region = 'gru'
+
+swap_size_mb = 512
 
 [build]
 
