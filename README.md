@@ -10,7 +10,7 @@ O **Agrix** é um sistema desenvolvido para a **AgroTech**, uma empresa focada e
 - **Spring Data JPA**: Para a persistência de dados.
 - **Spring Security**: Para a implementação de autenticação e autorização.
 - **Docker**: Para a criação de contêineres.
-- **MySQL e H2**: Para o gerenciamento de banco de dados.
+- **MySQL/PostgreSQL e H2**: Para o gerenciamento de banco de dados.
   
 ## 🚀 Fases do Projeto
 
